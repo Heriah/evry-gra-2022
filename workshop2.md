@@ -226,7 +226,7 @@ barplot(as.numeric(omega), col = 'black', names.arg = barnames, ylim = c(0,1))
 ![](workshop2_files/figure-gfm/TP-1.png)<!-- -->
 
 The realised return observed on the backtest sample of the portfolio
-constructed on the learning sample is equal to 0.0511662.
+constructed on the learning sample is equal to 5%.
 
 I am going to improve this result thanks to a more robust statistical
 approach integrating economic predictions in the allocation.
@@ -296,7 +296,7 @@ barplot(as.numeric(omega_mixed), col = 'black', names.arg = barnames, ylim = c(0
 ![](workshop2_files/figure-gfm/BL-1.png)<!-- -->
 
 The realised return observed on the backtest sample of the BL portfolio
-constructed on the learning sample is equal to 0.0641595.
+constructed on the learning sample is equal to 6%.
 
 I can compare it to the portfolio constructed directly with views and
 without uncertainty on the predictions. The realised return observed on
